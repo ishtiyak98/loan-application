@@ -16,7 +16,7 @@ const Home = () => {
   const handleUserInfo = (data) => {
     console.log(data);
 
-    fetch("http://localhost:5000/user-details", {
+    fetch("https://secure-wildwood-89373.herokuapp.com/user-details", {
       method: "POST",
       headers: {
         "content-type": "application/json",
